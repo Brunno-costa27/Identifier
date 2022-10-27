@@ -1,9 +1,9 @@
 from Identifier import Identifier
 
 if __name__ == '__main__':
-    id = input("Digite o id: ")
+    id = input("id: ")
     if(len(id) == 0):
-        print("Erro: Digite um valor")
+        print("Error: Digite um valor")
     else:
         if(Identifier.validateIdentifier(id)):
             print("Valido")
